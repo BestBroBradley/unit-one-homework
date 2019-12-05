@@ -1,15 +1,13 @@
 .box {
-    width: 300px;
-    height: 300px;
-    margin: 50px;
-    position: absolute;
+    width: 250px;
+    height: 250px;
 }
 
 .centered {
-    height: 500px;
+    height: 1500px;
 }
 
-#links {
+.centered {
     position: relative;
 }
 
@@ -22,29 +20,37 @@ img {
 h3 {
     background: darkkhaki;
     color: white;
-    padding: 15px 0px;
+    padding: 25px 0px;
     position: absolute;
     text-align: center;
     width: 100%;
     margin-top: -100px;
 }
 
-.link-1 {
-  
+#link-1 {
+    position: absolute;
+    top: 143px;
 }
 
-.link-2 {
-  
-}
-
-.link-3 {
-
-}
-
-.link-4 {
+#link-2 {
+    position: absolute;
+    top: 435px;
 
 }
 
-.link-5 {
+#link-3 {
+    position: absolute;
+    top: 727px;
+}
 
+#link-4 {
+    position: absolute;
+    top: 143px;    
+    left: 356px;
+}
+
+#link-5 {
+    position: absolute;
+    top: 435px;
+    left: 356px;
 }
