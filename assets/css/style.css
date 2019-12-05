@@ -34,11 +34,11 @@ ul {
     padding: 0px;
   }
   
-  li {
+.nav li {
     float: right;
   }
   
-  li a {
+.nav li {
     display: block;
     color: grey;
     text-align: center;
@@ -46,7 +46,7 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
+li a:hover {
     background-color: #111111;
   }
 
