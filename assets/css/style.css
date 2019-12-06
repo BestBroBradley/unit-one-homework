@@ -42,10 +42,10 @@ ul {
   }
   
 .nav li {
-    display: block;
     color: grey;
-    text-align: center;
+    display: block;
     padding: 23px 16px 27px 16px;
+    text-align: center;
     text-decoration: none;
   }
 
@@ -62,17 +62,17 @@ ul {
 
 h2 {
     border-bottom: 4px solid darkgrey;
+    color: dimgray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-bottom: 25px;
 }
 
 footer {
-  height: 50px;
-  width: 100%;
+  background: darkgrey;
   border-top: 5px solid darkkhaki;
   bottom: 0;
   color: white;
-  background: darkgrey;
+  height: 50px;
   text-align: center;
-
+  width: 100%;
 }

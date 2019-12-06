@@ -1,24 +1,24 @@
 #contact li {
-    padding: 5px 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 0;
 }
 
 .centered * :not(#submitBtn) { width:100%;}
 
 #myName, #myEmail {
-    padding: 12px 20px;
-    margin: 6px auto;
     box-sizing: border-box;
+    margin: 6px auto;
+    padding: 12px 20px;
 }
 
 #myMessage {
-    margin: 6px 0;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
+    background-color: #f8f8f8;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #f8f8f8;
+    box-sizing: border-box;
+    height: 150px;
+    margin: 6px 0;
+    padding: 12px 20px;
     resize: none;
   }
 

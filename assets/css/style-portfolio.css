@@ -1,13 +1,10 @@
 .box {
-    width: 250px;
     height: 250px;
+    width: 250px;
 }
 
 .centered {
     height: 971px;
-}
-
-.centered {
     position: relative;
 }
 
@@ -20,11 +17,11 @@ img {
 h3 {
     background: darkkhaki;
     color: white;
+    margin-top: -100px;
     padding: 25px 0px;
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: -100px;
 }
 
 #link-1 {
@@ -44,13 +41,13 @@ h3 {
 }
 
 #link-4 {
+    left: 356px;
     position: absolute;
     top: 143px;    
-    left: 356px;
 }
 
 #link-5 {
+    left: 356px;
     position: absolute;
     top: 435px;
-    left: 356px;
 }
