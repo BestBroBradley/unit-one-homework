@@ -1,3 +1,7 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -21,7 +25,6 @@ h1 {
     background:darkkhaki;
     color: white;
     float: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px 0px 0px 13%;
     padding: 14px 16px 18px 16px;
 }
@@ -45,10 +48,10 @@ ul {
     padding: 23px 16px 27px 16px;
     text-decoration: none;
   }
-  
-li a:hover {
-    background-color: #111111;
-  }
+
+.nav li a:visited {
+    color: grey;
+}
 
   .centered {
     background: white;
@@ -61,4 +64,15 @@ h2 {
     border-bottom: 4px solid darkgrey;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-bottom: 25px;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  border-top: 5px solid darkkhaki;
+  bottom: 0;
+  color: white;
+  background: darkgrey;
+  text-align: center;
+
 }
